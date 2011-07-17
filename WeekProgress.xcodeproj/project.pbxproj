@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012ED37213BA617D005E6358 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 012ED37013BA617D005E6358 /* icon-57.png */; };
+		012ED37313BA617D005E6358 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 012ED37113BA617D005E6358 /* icon-114.png */; };
+		0159463B1336272800FEC673 /* WeekProgressTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A68E09133616110070EC51 /* WeekProgressTestCase.m */; };
+		01594656133627EB00FEC673 /* WeekProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 015F57AD1334ECE700731B4C /* WeekProgress.m */; };
+		015F57AE1334ECE700731B4C /* WeekProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 015F57AD1334ECE700731B4C /* WeekProgress.m */; };
+		017F89B5133FBB1500C105D5 /* logo-kwadrat-transp-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 017F89B4133FBB1500C105D5 /* logo-kwadrat-transp-25.png */; };
+		0185C2241354A74900A52913 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185C2231354A74900A52913 /* Config.m */; };
+		01886E2F1342498D0028E8DD /* OptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01886E2D1342498D0028E8DD /* OptionsController.m */; };
+		01886E301342498D0028E8DD /* OptionsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01886E2E1342498D0028E8DD /* OptionsController.xib */; };
+		01992458133D07BC0045D9ED /* bar-left-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0199244F133D07BC0045D9ED /* bar-left-1.png */; };
+		0199245B133D07BC0045D9ED /* bar-middle-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 01992452133D07BC0045D9ED /* bar-middle-10.png */; };
+		0199245C133D07BC0045D9ED /* bar-right-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01992453133D07BC0045D9ED /* bar-right-1.png */; };
+		0199245F133D07BC0045D9ED /* progress-bar-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 01992456133D07BC0045D9ED /* progress-bar-bg.png */; };
+		01992460133D07BC0045D9ED /* progress-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 01992457133D07BC0045D9ED /* progress-bar.png */; };
+		01D20E8C134B701100631551 /* SelectDaysController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D20E8A134B701100631551 /* SelectDaysController.m */; };
+		01D20E8D134B701100631551 /* SelectDaysController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D20E8B134B701100631551 /* SelectDaysController.xib */; };
+		01D20EE1134B7DEE00631551 /* ChangeHoursController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D20EDF134B7DEE00631551 /* ChangeHoursController.m */; };
+		01D20EE2134B7DEE00631551 /* ChangeHoursController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D20EE0134B7DEE00631551 /* ChangeHoursController.xib */; };
+		1D3623260D0F684500981E51 /* WeekProgressAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* WeekProgressAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* WeekProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* WeekProgressViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* WeekProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* WeekProgressViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		015946A41336322A00FEC673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0159460D133624D200FEC673;
+			remoteInfo = UnitTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012ED37013BA617D005E6358 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		012ED37113BA617D005E6358 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		0159460E133624D200FEC673 /* UnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0159460F133624D200FEC673 /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
+		015F57AC1334ECE700731B4C /* WeekProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekProgress.h; sourceTree = "<group>"; };
+		015F57AD1334ECE700731B4C /* WeekProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekProgress.m; sourceTree = "<group>"; };
+		017F89B4133FBB1500C105D5 /* logo-kwadrat-transp-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-kwadrat-transp-25.png"; sourceTree = "<group>"; };
+		0185C2221354A74900A52913 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0185C2231354A74900A52913 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		01886E2C1342498D0028E8DD /* OptionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsController.h; sourceTree = "<group>"; };
+		01886E2D1342498D0028E8DD /* OptionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsController.m; sourceTree = "<group>"; };
+		01886E2E1342498D0028E8DD /* OptionsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OptionsController.xib; path = Classes/OptionsController.xib; sourceTree = "<group>"; };
+		0199244F133D07BC0045D9ED /* bar-left-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-left-1.png"; sourceTree = "<group>"; };
+		01992452133D07BC0045D9ED /* bar-middle-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-middle-10.png"; sourceTree = "<group>"; };
+		01992453133D07BC0045D9ED /* bar-right-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-right-1.png"; sourceTree = "<group>"; };
+		01992456133D07BC0045D9ED /* progress-bar-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar-bg.png"; sourceTree = "<group>"; };
+		01992457133D07BC0045D9ED /* progress-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar.png"; sourceTree = "<group>"; };
+		01A68DEC133614FC0070EC51 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
+		01A68E08133616110070EC51 /* WeekProgressTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekProgressTestCase.h; sourceTree = "<group>"; };
+		01A68E09133616110070EC51 /* WeekProgressTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekProgressTestCase.m; sourceTree = "<group>"; };
+		01D20E89134B701100631551 /* SelectDaysController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDaysController.h; sourceTree = "<group>"; };
+		01D20E8A134B701100631551 /* SelectDaysController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDaysController.m; sourceTree = "<group>"; };
+		01D20E8B134B701100631551 /* SelectDaysController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SelectDaysController.xib; path = Classes/SelectDaysController.xib; sourceTree = "<group>"; };
+		01D20E9B134B79B300631551 /* FlipsideViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewControllerDelegate.h; sourceTree = "<group>"; };
+		01D20EDE134B7DEE00631551 /* ChangeHoursController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeHoursController.h; sourceTree = "<group>"; };
+		01D20EDF134B7DEE00631551 /* ChangeHoursController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeHoursController.m; sourceTree = "<group>"; };
+		01D20EE0134B7DEE00631551 /* ChangeHoursController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChangeHoursController.xib; path = Classes/ChangeHoursController.xib; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* WeekProgressAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekProgressAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* WeekProgressAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekProgressAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* WeekProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* WeekProgressViewController.xib */ = {isa = PBXFileReference; explicitFileType = file.xib; path = WeekProgressViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* WeekProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekProgressViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* WeekProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekProgressViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* WeekProgress_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekProgress_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* WeekProgress-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WeekProgress-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0159460B133624D200FEC673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0185C1F51353606D00A52913 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01D20EDE134B7DEE00631551 /* ChangeHoursController.h */,
+				01D20EDF134B7DEE00631551 /* ChangeHoursController.m */,
+				01886E2C1342498D0028E8DD /* OptionsController.h */,
+				01886E2D1342498D0028E8DD /* OptionsController.m */,
+				01D20E89134B701100631551 /* SelectDaysController.h */,
+				01D20E8A134B701100631551 /* SelectDaysController.m */,
+				28D7ACF60DDB3853001CB0EB /* WeekProgressViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* WeekProgressViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0185C1F71353607600A52913 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				015F57AC1334ECE700731B4C /* WeekProgress.h */,
+				015F57AD1334ECE700731B4C /* WeekProgress.m */,
+				0185C2221354A74900A52913 /* Config.h */,
+				0185C2231354A74900A52913 /* Config.m */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		0185C20213536B2300A52913 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				01D20E9B134B79B300631551 /* FlipsideViewControllerDelegate.h */,
+				1D3623240D0F684500981E51 /* WeekProgressAppDelegate.h */,
+				1D3623250D0F684500981E51 /* WeekProgressAppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		01A68E02133615120070EC51 /* Test Cases */ = {
+			isa = PBXGroup;
+			children = (
+				01A68E08133616110070EC51 /* WeekProgressTestCase.h */,
+				01A68E09133616110070EC51 /* WeekProgressTestCase.m */,
+			);
+			name = "Test Cases";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0185C1F51353606D00A52913 /* Controllers */,
+				0185C20213536B2300A52913 /* Delegates */,
+				0185C1F71353607600A52913 /* Logic */,
+				01A68E02133615120070EC51 /* Test Cases */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* WeekProgress.app */,
+				0159460E133624D200FEC673 /* UnitTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				0159460F133624D200FEC673 /* UnitTest-Info.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* WeekProgress_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				012ED37013BA617D005E6358 /* icon-57.png */,
+				012ED37113BA617D005E6358 /* icon-114.png */,
+				017F89B4133FBB1500C105D5 /* logo-kwadrat-transp-25.png */,
+				0199244F133D07BC0045D9ED /* bar-left-1.png */,
+				01992452133D07BC0045D9ED /* bar-middle-10.png */,
+				01992453133D07BC0045D9ED /* bar-right-1.png */,
+				01992456133D07BC0045D9ED /* progress-bar-bg.png */,
+				01992457133D07BC0045D9ED /* progress-bar.png */,
+				01D20EE0134B7DEE00631551 /* ChangeHoursController.xib */,
+				01886E2E1342498D0028E8DD /* OptionsController.xib */,
+				01D20E8B134B701100631551 /* SelectDaysController.xib */,
+				2899E5210DE3E06400AC0155 /* WeekProgressViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* WeekProgress-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				01A68DEC133614FC0070EC51 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0159460D133624D200FEC673 /* UnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01594612133624D200FEC673 /* Build configuration list for PBXNativeTarget "UnitTest" */;
+			buildPhases = (
+				01594609133624D200FEC673 /* Resources */,
+				0159460A133624D200FEC673 /* Sources */,
+				0159460B133624D200FEC673 /* Frameworks */,
+				0159460C133624D200FEC673 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTest;
+			productName = UnitTest;
+			productReference = 0159460E133624D200FEC673 /* UnitTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1D6058900D05DD3D006BFB54 /* WeekProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WeekProgress" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				015946A51336322A00FEC673 /* PBXTargetDependency */,
+			);
+			name = WeekProgress;
+			productName = WeekProgress;
+			productReference = 1D6058910D05DD3D006BFB54 /* WeekProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WeekProgress" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* WeekProgress */,
+				0159460D133624D200FEC673 /* UnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01594609133624D200FEC673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* WeekProgressViewController.xib in Resources */,
+				01992458133D07BC0045D9ED /* bar-left-1.png in Resources */,
+				0199245B133D07BC0045D9ED /* bar-middle-10.png in Resources */,
+				0199245C133D07BC0045D9ED /* bar-right-1.png in Resources */,
+				0199245F133D07BC0045D9ED /* progress-bar-bg.png in Resources */,
+				01992460133D07BC0045D9ED /* progress-bar.png in Resources */,
+				017F89B5133FBB1500C105D5 /* logo-kwadrat-transp-25.png in Resources */,
+				01886E301342498D0028E8DD /* OptionsController.xib in Resources */,
+				01D20E8D134B701100631551 /* SelectDaysController.xib in Resources */,
+				01D20EE2134B7DEE00631551 /* ChangeHoursController.xib in Resources */,
+				012ED37213BA617D005E6358 /* icon-57.png in Resources */,
+				012ED37313BA617D005E6358 /* icon-114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0159460C133624D200FEC673 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0159460A133624D200FEC673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01594656133627EB00FEC673 /* WeekProgress.m in Sources */,
+				0159463B1336272800FEC673 /* WeekProgressTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* WeekProgressAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* WeekProgressViewController.m in Sources */,
+				015F57AE1334ECE700731B4C /* WeekProgress.m in Sources */,
+				01886E2F1342498D0028E8DD /* OptionsController.m in Sources */,
+				01D20E8C134B701100631551 /* SelectDaysController.m in Sources */,
+				01D20EE1134B7DEE00631551 /* ChangeHoursController.m in Sources */,
+				0185C2241354A74900A52913 /* Config.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		015946A51336322A00FEC673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0159460D133624D200FEC673 /* UnitTest */;
+			targetProxy = 015946A41336322A00FEC673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01594610133624D200FEC673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "UnitTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTest;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		01594611133624D200FEC673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "UnitTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTest;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WeekProgress_Prefix.pch;
+				INFOPLIST_FILE = "WeekProgress-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = WeekProgress;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WeekProgress_Prefix.pch;
+				INFOPLIST_FILE = "WeekProgress-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = WeekProgress;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01594612133624D200FEC673 /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01594610133624D200FEC673 /* Debug */,
+				01594611133624D200FEC673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WeekProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WeekProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
