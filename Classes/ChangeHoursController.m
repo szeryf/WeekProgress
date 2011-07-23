@@ -44,7 +44,8 @@ static NSMutableArray *daysInRows;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+    // Return YES for supported orientations
+    return interfaceOrientation == UIInterfaceOrientationLandscapeRight || interfaceOrientation == UIInterfaceOrientationLandscapeLeft;
 }
 
 - (void)didReceiveMemoryWarning {
