@@ -77,7 +77,10 @@
 										@"NO",  dayKey(5),
 										@"NO",  dayKey(6),
 										nil];
-	for (int day = DEFAULT_DAY; day < 7; ++day) { // -1 is for "all days"
+	// -1 is for "all days"
+	[appDefaults setObject: @"9" forKey:startHourKey(DEFAULT_DAY)];
+	[appDefaults setObject:@"17" forKey:endHourKey(DEFAULT_DAY)];
+	forAllDays {
 		[appDefaults setObject:UNSET_S forKey:startHourKey(day)];
 		[appDefaults setObject:UNSET_S forKey:endHourKey(day)];
 	}
